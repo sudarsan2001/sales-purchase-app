@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include purchase_and_sales_management *.css
+recursive-include purchase_and_sales_management *.csv
+recursive-include purchase_and_sales_management *.html
+recursive-include purchase_and_sales_management *.ico
+recursive-include purchase_and_sales_management *.js
+recursive-include purchase_and_sales_management *.json
+recursive-include purchase_and_sales_management *.md
+recursive-include purchase_and_sales_management *.png
+recursive-include purchase_and_sales_management *.py
+recursive-include purchase_and_sales_management *.svg
+recursive-include purchase_and_sales_management *.txt
+recursive-exclude purchase_and_sales_management *.pyc
